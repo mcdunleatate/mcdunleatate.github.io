@@ -11,8 +11,8 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
-  --bs-blue: #0d6efd;
-  --bs-indigo: #6610f2;
+  --bs-blue: #0e0c66;
+  --bs-indigo: #440661;
   --bs-purple: #6f42c1;
   --bs-pink: #d63384;
   --bs-red: #dc3545;
@@ -8034,12 +8034,18 @@ textarea.form-control-lg {
   word-break: break-word !important;
 }
 
-/* rtl:end:remove */
+
+
+.text-primary {
+  color: rebeccapurple  !important;
+}
+
+/* rtl:end:remove 
 .text-primary {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
 }
-
+*/
 .text-secondary {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important;
@@ -8126,10 +8132,20 @@ textarea.form-control-lg {
   --bs-text-opacity: 1;
 }
 
+
+.bg-primary {
+  --bs-bg-opacity: 1;
+  background-color: rgba(38, 18, 72, var(--bs-bg-opacity)) !important;
+}
+
+
+/*
 .bg-primary {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
 }
+*/
+
 
 .bg-secondary {
   --bs-bg-opacity: 1;
